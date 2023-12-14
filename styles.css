@@ -94,7 +94,7 @@ h1 {
     height: 1200px;
 }
 
-.brand-container, .egg-img-container, .wine-glass-container {
+.brand-container, .img-container {
     width: 50%;
     height: 680px;
 }
@@ -115,7 +115,7 @@ h1 {
     margin: 50px auto;
 }
 
-.egg-img-container img, .wine-glass-img-container img  {
+.img-container img  {
     width: 960px;
     height: 680px;
     object-fit: cover;
