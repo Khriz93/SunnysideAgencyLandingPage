@@ -14,7 +14,7 @@ button {
     border: none;
     background: inherit;
     text-transform: uppercase;
-    font-size: 18px;
+    font-size: 22px;
     font-family: 'Fraunces', sans-serif;
     margin: auto;
     /* box-shadow: 0 2px 2px 0 hsl(51, 100%, 49%), 0 3px 3px 0 hsl(51, 100%, 49%); */
@@ -72,7 +72,7 @@ button {
 
 h1 {
     color: white;
-    font-size: 55px;
+    font-size: 65px;
     font-family: 'Fraunces', sans-serif;
     font-weight: 900;
     text-transform: uppercase;
@@ -83,7 +83,7 @@ h1 {
 
 .arrow-down {
     display: block;
-    margin: 110px auto;
+    margin: 100px auto;
     width: 40px;
 }
 
@@ -101,16 +101,19 @@ h1 {
 
 .title {
     margin: auto;
-    width: 300px;
+    width: 400px;
     font-family: 'Fraunces', sans-serif;
-    font-size: 32px;
+    font-size: 45px;
     font-weight: 800;
     margin-top: 80px;
 }
+.brand-text {
+    margin: 150px auto;
+}
 
 .brand-text p {
-    width: 400px;
-    font-size: 18px;
+    width: 480px;
+    font-size: 22px;
     color:hsl(213, 9%, 39%);
     margin: 50px auto;
 }
