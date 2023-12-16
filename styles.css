@@ -9,22 +9,11 @@ a {
     color: white;
 }
 
-button {
-    display: block;
-    border: none;
-    background: inherit;
-    text-transform: uppercase;
-    font-size: 22px;
-    font-family: 'Fraunces', sans-serif;
-    margin: auto;
-    /* box-shadow: 0 2px 2px 0 hsl(51, 100%, 49%), 0 3px 3px 0 hsl(51, 100%, 49%); */
-}
-
 .header {
     width: 100vw;
     height: 880px;
     background-image: url("/assets/desktop/image-header.jpg");
-    background-position: center;
+    background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -37,7 +26,7 @@ button {
 }
 
 .logo {
-    margin: 20px;
+    margin: 50px;
     font-size: 32px;
     font-family: 'Barlow', sans-serif;
 }
@@ -46,16 +35,16 @@ button {
     display: flex;
     padding-right: 50px;
     justify-content: center;
-    margin: 20px;
+    margin: 5px 20px;
 }
 
 .desktop-menu a {
     font-family: 'Barlow', sans-serif;
-    font-size: 20px;
+    font-size: 22px;
 }
 
 .menu-links {
-    margin: 15px 40px 0 0;
+    margin: 10px 40px 0 0;
 }
 
 .contact {
@@ -76,14 +65,14 @@ h1 {
     font-family: 'Fraunces', sans-serif;
     font-weight: 900;
     text-transform: uppercase;
-    letter-spacing: 5px;
+    letter-spacing: 15px;
     text-align: center;
-    margin-top: 150px;
+    margin-top: 40px;
 }
 
 .arrow-down {
     display: block;
-    margin: 100px auto;
+    margin: 65px auto;
     width: 40px;
 }
 
@@ -91,35 +80,85 @@ h1 {
     display: flex;
     flex-wrap: wrap;
     width: 100vw;
-    height: 1200px;
 }
 
-.brand-container, .img-container {
+.text-container, .img-container, .graphic-design-container {
     width: 50%;
-    height: 680px;
+    height: 760px;
+}
+
+.title, .title2 {
+    margin: auto 160px;
+    font-family: 'Fraunces', sans-serif;
+    font-size: 60px;
+    font-weight: 800;
+    margin-top: 80px;
+    line-height: 70px;
 }
 
 .title {
-    margin: auto;
-    width: 400px;
-    font-family: 'Fraunces', sans-serif;
-    font-size: 45px;
-    font-weight: 800;
-    margin-top: 80px;
+    width: 500px;
 }
-.brand-text {
+
+.title2 {
+    width: 700px;
+}
+
+.text {
     margin: 150px auto;
 }
 
-.brand-text p {
-    width: 480px;
-    font-size: 22px;
+.text p {
+    width: 620px;
+    font-family: 'Barlow', sans-serif;
+    font-size: 25px;
     color:hsl(213, 9%, 39%);
-    margin: 50px auto;
+    margin: 50px 155px;
+    line-height: 35px;
+}
+
+.learn-more-button-container button {
+    display: block;
+    border: none;
+    background: inherit;
+    text-transform: uppercase;
+    font-size: 22px;
+    font-family: 'Fraunces', sans-serif;
+    font-weight: 800;
+    margin: auto 170px;
+    /* box-shadow: 0 2px 2px 0 hsl(51, 100%, 49%), 0 3px 3px 0 hsl(51, 100%, 49%); */
 }
 
 .img-container img  {
-    width: 960px;
-    height: 680px;
+    width: 100%;
+    height: 100%;
     object-fit: cover;
+}
+
+.graphic-design-container {
+    background-image: url("/assets/desktop/image-graphic-design.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.graphic-design-title, .photography-title {
+    width: 500px;
+    font-family: 'Fraunces', sans-serif;
+    font-size: 35px;
+    font-weight: 900;
+    text-align: center;
+    margin: 450px auto 10px;
+}
+
+.graphic-design-title, .graphic-design-text {
+    color: hsl(167, 40%, 24%);
+}
+
+.graphic-design-text {
+
+}
+
+.photography-title, .photography-text {
+    color: hsl(198, 62%, 26%)
 }
