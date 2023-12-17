@@ -5,14 +5,33 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" href="/styles.css">
+  <link rel="stylesheet" href="/css/styles.css">
+  <link rel="stylesheet" href="/css/desktop.css">
+      <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   
   <title>Sunnyside Agency Landing Page</title>
 </head>
 <body>
+    <div class="mobile-menu">
+        <a href="#About" class="menu-links">About</a>
+        <a href="#Services" class="menu-links">Services</a>
+        <a href="#Projects" class="menu-links">Projects</a>
+        <a href="#Contact"><button class="contact">Contact</button></a>
+    </div>
+</div>
     <div class="header">
         <div class="top-area">
             <a href="/index.html" class="logo">Sunnyside</a>
+            <!-- Mobile Hamburger Menu -->
+            <div onclick="OpenMenu()" class="hamburger-menu center links">
+                <i class="fa-solid fa-bars"></i>
+            </div>
             <div class="desktop-menu">
                 <a href="#About" class="menu-links">About</a>
                 <a href="#Services" class="menu-links">Services</a>
@@ -26,8 +45,8 @@
         </div>
     </div>
     <div class="container">
-        <div class="text-container">
-            <div class="text">
+        <div class="top-text-container">
+            <div class="top-text">
                 <div class="title">Transform your brand</div>
                 <p>
                     We are a full-service creative agency specializing in helping brands grow fast. 
@@ -47,8 +66,8 @@
         <div class="img-container">
             <img src="/assets/desktop/image-stand-out.jpg">
         </div>
-        <div class="text-container">
-            <div class="text">
+        <div class="top-text-container">
+            <div class="top-text">
                 <div class="title2">Stand out to the right audience</div>
                 <p>
                     Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places.
@@ -62,28 +81,51 @@
             </div>
         </div>
         <div class="graphic-design-container">
-            <div class="graphic-design-title">Graphic Design</div>
-            <div class="graphic-design-text">
-                Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.
+            <div class="bottom-text-container">
+                <div class="graphic-design-title">Graphic Design</div>
+                <div class="graphic-design-text">
+                    Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.
+                </div>
             </div>
         </div>
         <div class="photography-container">
-            <div class="photography-title">Photography</div>
-            <div class="photography-text">
-                Increase your credibility by getting the most stunning, high-quality photos that improve your business image.
+            <div class="bottom-text-container">
+                <div class="photography-title">Photography</div>
+                <div class="photography-text">
+                    Increase your credibility by getting the most stunning, high-quality photos that improve your business image.
+                </div>
             </div>
         </div>
     </div>
-
-  Client testimonials
-
-  We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.
-  Emily R.
-  Marketing Director
-
-  Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.
-  Thomas S.
-  Chief Operating Officer
+    <div class="client-testimonial-container">
+        <div class="client-testimonial-title">Client testimonials</div>
+        <div class="reviews-container">
+            <div class="reviews">
+                    <div class="reviews-imgs-container"><img class="reviews-imgs" src="/assets/image-emily.jpg"></div>
+                <div class="reviews-text">
+                    We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.
+                </div>
+                <div class="name">Emily R.</div>
+                <div class="role">Marketing Director</div>
+            </div>
+            <div class="reviews">
+                <div class="reviews-imgs-container"><img class="reviews-imgs" src="/assets/image-emily.jpg"></div>
+                <div class="reviews-text">
+                    Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.
+                </div>
+                <div class="name">Thomas S.</div>
+                <div class="role">Chief Operating Officerr</div>
+            </div>
+            <div class="reviews">
+                    <div class="reviews-imgs-container"><img class="reviews-imgs" src="/assets/image-emily.jpg"></div>
+                <div class="reviews-text">
+                    Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.
+                </div>
+                <div class="name">Thomas S.</div>
+                <div class="role">Chief Operating Officerr</div>
+            </div>
+        </div>
+    </div>
 
   Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!
   Jennie F.

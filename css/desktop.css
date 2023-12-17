@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700;900&display=swap');
+
+* {
+    margin: 0;
+}
+
+@media screen and (min-width: 750px) {
+    
+    .header {
+        width: 100vw;
+        height: 880px;
+        background-image: url("/assets/desktop/image-header.jpg");
+        background-position: bottom;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+
+
+    .logo {
+        margin: 50px;
+        font-size: 32px;
+        font-family: 'Barlow', sans-serif;
+    }
+
+    .desktop-menu {
+        display: flex;
+        padding-right: 50px;
+        justify-content: center;
+        margin: 5px 20px;
+    }
+
+    .desktop-menu a {
+        font-family: 'Barlow', sans-serif;
+        font-size: 22px;
+    }
+
+    .menu-links {
+        margin: 10px 40px 0 0;
+    }
+
+    .contact {
+        width: 150px;
+        height: 55px;
+        background-color: white;
+        border: none;
+        border-radius: 25px;
+        color: black;
+        text-transform: uppercase;
+        font-weight: 800;
+        text-align: center;
+    }
+
+    h1 {
+        color: white;
+        font-size: 65px;
+        font-family: 'Fraunces', sans-serif;
+        font-weight: 900;
+        text-transform: uppercase;
+        letter-spacing: 15px;
+        text-align: center;
+        margin-top: 40px;
+    }
+
+    .arrow-down {
+        display: block;
+        margin: 65px auto;
+        width: 40px;
+    }
+
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    .top-text-container, .img-container, .graphic-design-container, .photography-container {
+        width: 50%;
+        height: 760px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .title, .title2 {
+        margin: auto 160px;
+        font-family: 'Fraunces', sans-serif;
+        font-size: 60px;
+        font-weight: 800;
+        margin-top: 80px;
+        line-height: 70px;
+    }
+
+    .title {
+        width: 500px;
+    }
+
+    .title2 {
+        width: 700px;
+    }
+
+    .top-text {
+        margin: 150px auto;
+
+    }
+
+    .top-text p {
+        width: 620px;
+        font-family: 'Barlow', sans-serif;
+        font-size: 25px;
+        color:hsl(213, 9%, 39%);
+        margin: 50px 155px;
+        line-height: 35px;
+    }
+
+    .learn-more-button-container button {
+        display: block;
+        border: none;
+        background: inherit;
+        text-transform: uppercase;
+        font-size: 22px;
+        font-family: 'Fraunces', sans-serif;
+        font-weight: 800;
+        margin: auto 170px;
+        /* box-shadow: 0 2px 2px 0 hsl(51, 100%, 49%), 0 3px 3px 0 hsl(51, 100%, 49%); */
+    }
+
+    .img-container img  {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .graphic-design-container, .photography-container {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .graphic-design-container {
+        background-image: url("/assets/desktop/image-graphic-design.jpg");
+    }
+
+    .bottom-text-container {
+        width: 750px;
+        margin: 500px auto 10px;
+    }
+
+    .graphic-design-title, .photography-title {
+        width: 500px;
+        font-family: 'Fraunces', sans-serif;
+        font-size: 35px;
+        font-weight: 900;
+        text-align: center;
+        margin: auto;
+    }
+
+    .graphic-design-title, .graphic-design-text {
+        color: hsl(167, 40%, 24%);
+    }
+
+    .graphic-design-text, .photography-text {
+        width: 500px;
+        font-family: 'Barlow', sans-serif;
+        font-size: 22px;
+        text-align: center;
+        margin: 40px auto 0;
+        line-height: 40px;
+
+    }
+
+    .photography-container {
+        background-image: url("/assets/desktop/image-photography.jpg");
+    }
+
+    .photography-title, .photography-text {
+        color: hsl(198, 62%, 26%)
+    }
+
+    .client-testimonial-container {
+        width: 100vw;
+        height: 750px;
+    }
+
+    .client-testimonial-title {
+        width: 800px;
+        font-family: 'Fraunces', sans-serif;
+        font-size: 30px;
+        color: hsl(207, 4%, 41%);
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: 8px;
+        margin: 200px auto 20px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .reviews-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .reviews {
+        margin: 50px auto;
+        width: 250px; 
+    }
+
+    .reviews-imgs-container {
+        width: 100px;
+        margin: 40px auto;
+    }
+
+    .reviews-imgs {
+        border-radius: 50%;
+        width: 90px;
+        height: 90px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .desktop-menu {
+        display: none;
+    }
+}
